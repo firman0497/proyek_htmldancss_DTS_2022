@@ -1,0 +1,47 @@
+@media(max-width: 1000px) {
+    footer {
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .footer-right {
+        width: 100%;
+        float: none;
+    }
+    .logo2 {
+        width: 25%;
+        margin: auto;
+        display: block;
+    }
+    .subs {
+        width: 25%;
+        font-size: medium;
+    }
+    .logo3 {
+        width: 7%;
+    }
+}
+@media(max-width: 670px) {
+    footer {
+        flex-wrap: wrap;
+        height: max-content;
+    }
+    .logo2 {
+        width: 35%;
+        display: block;
+        margin: auto;
+    }
+    .footer-right {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .subs {
+        font-size: smaller;
+        float: none;
+        text-align: center;
+        width: 92%;
+    }
+    .logo3 {
+        width: 3%;
+    }
+}
