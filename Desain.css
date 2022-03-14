@@ -14,7 +14,6 @@ div {
 }
 .logo2 {
     padding: 20px 20px;
-    height: 15%;
     width: 15%;
 }
 .judul2 {
@@ -32,11 +31,9 @@ li {
 }
 .subs {
     float: left;
+    margin-left: 40px;
 }
 .logo3 {
     margin-right: 4px;
     width: 7%;
-}
-* {
-    box-sizing: border-box;
 }
